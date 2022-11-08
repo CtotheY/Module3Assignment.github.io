@@ -1,0 +1,81 @@
+.nav
+{
+	background-color: lightgray;
+}
+.header-h1
+{
+	float: left;
+	margin-left: -80px;
+	color: black;
+	font-weight: bolder;
+	font-size: 3.1em;
+}
+.menu-content
+{
+	text-align: center;
+	font-size: 2em;
+}
+.menu-content span
+{
+	color: white;
+}
+.menu-content span:hover
+{
+	font-weight: bolder;
+}
+.menu-list
+{
+	background-color: darkslategrey;
+}
+.menu-content:hover
+{
+	color: wheat;
+}
+#menu-heading
+{
+	color: black;
+	font-weight: bold;
+	font-size: 2.8em;
+}
+#content 
+{
+	padding: 20px;
+	background-color: lightgray;
+	width: 98%;
+}
+#chicken-content
+{
+	font-size: 2em;
+	text-align: justify;
+}
+/*** Large devices only ****/
+@media (min-width:  1280px) {
+	.header-h1
+	{
+		margin-left: -80px;
+	}
+}
+
+/*** Medium devices only ****/
+@media (min-width:  992px) and (max-width: 1279px) {
+	.header-h1
+	{
+		margin-left: -30px;
+	}
+}
+
+/*** Small devices only ****/
+@media (min-width:  768px) and (max-width: 991px) {
+	.header-h1
+	{
+		margin-left: 10px;
+	}
+}
+
+/*** Extra small devices only ****/
+@media (max-width:  767px) {
+	.header-h1
+	{
+		margin-left: 0px;
+	}
+}
